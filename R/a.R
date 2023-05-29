@@ -1,4 +1,4 @@
-#' Invitacion
+#' Carta1
 #'
 #' @return
 #' @export
