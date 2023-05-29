@@ -3,8 +3,8 @@
 #' @return
 #' @export
 #'
-#' @examples May()
-May <- function(){
+#' @examples may()
+may <- function(){
 list.of.packages <- c("svDialogs", "animation", "dpyr", "ggplot2", "pryr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -17,7 +17,7 @@ require(pryr)
 
 message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'yesno')$res
 if ( message == 'yes' ) {
-  dlg_message('Muy bien! Te vere en el café el conquistador a las 12 pm, el que esta cerca de la alhóndiga, No cierres R, espera un poco ya que hay una sorpresa!')
+  dlg_message('Muy bien! Te vere en el café conquistador a las 12 pm, el que esta cerca de la alhóndiga, No cierres R, espera un poco ya que hay una sorpresa!')
   # heart curve formula
   heart <- quote((x^2 + y^2 - 1)^3 - x^2 * y^3)
 
@@ -52,7 +52,7 @@ if ( message == 'yes' ) {
     } else {
       message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'ok')$res
       if ( message == 'ok' ) {
-        dlg_message('Muy bien! Te vere en el café el conquistador a las 12 pm, el que esta cerca de la alhóndiga, No cierres R, espera un poco ya que hay una sorpresa!')
+        dlg_message('Muy bien! Te vere en el café conquistador a las 12 pm, el que esta cerca de la alhóndiga, No cierres R, espera un poco ya que hay una sorpresa!')
         # heart curve formula
         heart <- quote((x^2 + y^2 - 1)^3 - x^2 * y^3)
 
@@ -83,7 +83,7 @@ if ( message == 'yes' ) {
   } else {
     message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'ok')$res
     if ( message == 'ok' ) {
-      dlg_message('Muy bien! Te vere en el café el conquistador a las 12 pm, el que esta cerca de la alhóndiga, No cierres R, espera un poco ya que hay una sorpresa!')
+      dlg_message('Muy bien! Te vere en el café conquistador a las 12 pm, el que esta cerca de la alhóndiga, No cierres R, espera un poco ya que hay una sorpresa!')
       # heart curve formula
       heart <- quote((x^2 + y^2 - 1)^3 - x^2 * y^3)
 
@@ -115,4 +115,4 @@ if ( message == 'yes' ) {
 
 }
 
-May()
+may()
