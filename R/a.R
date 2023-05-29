@@ -5,7 +5,7 @@
 #'
 #' @examples may()
 may <- function(){
-list.of.packages <- c("svDialogs", "animation", "dpyr", "ggplot2", "pryr")
+list.of.packages <- c("svDialogs", "animation", "dplyr", "ggplot2", "pryr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 require(svDialogs)
