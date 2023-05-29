@@ -127,5 +127,6 @@ if ( message == 'yes' ) {
     }
   }
 }
-
+ # Eres la curva isocuanta y yo la isocoste,
+ # pues eres el punto óptimo de mi vida. :) - Un wey bien teto
 }
