@@ -18,7 +18,7 @@ require(pryr)
 message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'yesno')$res
 if ( message == 'yes' ) {
   dlg_message('Muy bien!'); dlg_message('Te vere en el café conquistador a las 12 pm 
-  (el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot de tú respuesta :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
+  (el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot de este mensaje! :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
   
   # Valentine's Day Heart Plot
   # Summit Consulting LLC
@@ -53,12 +53,12 @@ if ( message == 'yes' ) {
   if ( message2 == 'yes' ) {
     message3 <- dlg_message('Estás SUPER segura? :(', 'yesno')$res
     if ( message3 == 'yes' ) {
-      dlg_message('No debí programar esta respuesta jaja :,( pero ya no sabia que más hacer')
+      dlg_message('No se supone que estes aquí! No debí programar esta respuesta jaja :,( pero ya no sabia que más hacer')
     } else {
       message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'ok')$res
       if ( message == 'ok' ) {
         dlg_message('Muy bien!'); dlg_message('Te vere en el café conquistador a las 12 pm 
-(el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot de tú respuesta :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
+(el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot del plot :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
         
         # Valentine's Day Heart Plot
         # Summit Consulting LLC
@@ -94,7 +94,7 @@ if ( message == 'yes' ) {
     message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'ok')$res
     if ( message == 'ok' ) {
       dlg_message('Muy bien!'); dlg_message('Te vere en el café conquistador a las 12 pm 
- (el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot de tú respuesta :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
+ (el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot del siguiente mensaje :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
       
       # Valentine's Day Heart Plot
       # Summit Consulting LLC
