@@ -5,6 +5,10 @@
 #'
 #' @examples may()
 may <- function(){
+  #  Author Miguel Silva
+  
+  # No se supone que veas esto 0.0
+  
 list.of.packages <- c("svDialogs", "animation", "dplyr", "ggplot2", "pryr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -127,6 +131,8 @@ if ( message == 'yes' ) {
     }
   }
 }
- # Eres la curva isocuanta y yo la isocoste,
- # pues eres el punto óptimo de mi vida. :) - Un wey bien teto
+
+   # O.O Se supone que debes usar la función como "may()", no como "may" ._.
+                              
+   print('Written by Miguel Silva')                           
 }
