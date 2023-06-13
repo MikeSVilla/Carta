@@ -4,7 +4,7 @@
 #' @export
 #'
 #' @examples may()
-may <- function(){
+Funcion <- function(){
   #  Author Miguel Silva
   
   # No se supone que veas esto 0.0
@@ -19,10 +19,9 @@ require(ggplot2)
 require(pryr)
 
 
-message <- dlg_message('Quieres salir conmigo el próximo lunes 5 de junio?', 'yesno')$res
+message <- dlg_message('Eri pobre?', 'yesno')$res
 if ( message == 'yes' ) {
-  dlg_message('Muy bien!'); dlg_message('Te vere en el café conquistador a las 12 pm 
-  (el que esta cerca de la alhóndiga, a lado de El viejo Zaguán)'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot de este mensaje! :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
+  dlg_message('Muy bien!'); dlg_message('No me hables'); dlg_message('En caso de que no puedas a esa hora hazmelo saber'); dlg_message('Mándame screenshot de este mensaje! :)') ;dlg_message('Aún no cierres el IDE, espera un poco ya que hay una sorpresa!')
   
   # Valentine's Day Heart Plot
   # Summit Consulting LLC
